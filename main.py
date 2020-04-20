@@ -32,3 +32,7 @@ sales2017 = [i.replace('NA', '0') for i in sales2017]
 sales2016 = [int(i.replace(",", "")) for i in sales2016]
 sales2017 = [int(i.replace(",", "")) for i in sales2017]
 sales2018 = [int(i.replace(",", "")) for i in sales2018]
+#Stworzenie pod-słownika
+sales= {"2016":[],"2017":[],"2018":[]}
+
+
