@@ -25,3 +25,5 @@ answer4 = "" # wskaż nazwę modelu jako string
 answer5 = "" # odpowiedź podaj w formacie procentowym jako string. Np. '21%'
 
 cars = {}
+sales2016 = [i.replace('NA', '0') for i in sales2016]
+sales2017 = [i.replace('NA', '0') for i in sales2017]
