@@ -25,5 +25,10 @@ answer4 = "" # wskaż nazwę modelu jako string
 answer5 = "" # odpowiedź podaj w formacie procentowym jako string. Np. '21%'
 
 cars = {}
+#zmiana wartości NA na 0
 sales2016 = [i.replace('NA', '0') for i in sales2016]
 sales2017 = [i.replace('NA', '0') for i in sales2017]
+#conwersja list z str do int
+sales2016 = [int(i.replace(",", "")) for i in sales2016]
+sales2017 = [int(i.replace(",", "")) for i in sales2017]
+sales2018 = [int(i.replace(",", "")) for i in sales2018]
