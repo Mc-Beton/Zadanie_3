@@ -35,5 +35,7 @@ sales2018 = [int(i.replace(",", "")) for i in sales2018]
 #Stworzenie pod-słownika
 sales= {"2016":[sales2016],"2017":[sales2017],"2018":[sales2018]}
 
+#to mój branch
+
 
 
