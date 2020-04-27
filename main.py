@@ -35,6 +35,17 @@ sales2018 = [int(i.replace(",", "")) for i in sales2018]
 #Stworzenie pod-słownika
 sales= {"2016":[sales2016],"2017":[sales2017],"2018":[sales2018]}
 
-#elo
+
+for i in models:
+    j=i.split()
+    cars[j[0]]={}
+for i in models:
+    j=i.split()
+    cars[j[0]][j[2]]={}
+for i, k, l, m in zip(models, sales2016, sales2017, sales2018):
+    j=i.split()
+    cars[j[0]][j[2]]={'2016': k, '2017': l, '2018': m}
+
+
 
 
